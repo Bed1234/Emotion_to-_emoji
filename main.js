@@ -23,7 +23,7 @@ function take_snapshot() {
 
 
 //consoling ml5.version for check 
-console.log('ml5 version-',ml5.verion);
+console.log('ml5 version-',ml5.version);
 
 //defining image classification
 classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/QXA9XxAn_/model.json',modelLoaded);
